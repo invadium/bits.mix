@@ -6,7 +6,7 @@ function setup() {
     })
 
     // place a button
-    lab.hud.spawn('/hud/gadget/Button', {
+    lab.hud.spawn('Button', {
         name: 'button1',
         x: 40,
         y: ry(1) - 80,

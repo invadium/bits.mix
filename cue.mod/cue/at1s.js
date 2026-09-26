@@ -5,5 +5,5 @@
 //
 module.exports = function() {
     // show status.mod to see Time and FPS
-    mod.status.lab.status.hidden = false
+    $.mod.status.lab.status.hidden = false
 }
