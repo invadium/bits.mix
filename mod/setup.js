@@ -3,6 +3,7 @@ const systemMods = [
     'explorer',
     'inspector',
     'status',
+    'help',
 ]
 
 function indexMods() {
