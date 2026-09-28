@@ -27,8 +27,8 @@ function indexMods() {
     mod.orderZ()
 }
 
-function setup() {
+function mods() {
     indexMods()
-
     job.deactivateAllMods()
 }
+mods.Z = 2

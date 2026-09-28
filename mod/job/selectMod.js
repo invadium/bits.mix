@@ -3,5 +3,7 @@ function selectMod(mod) {
 
     log.raw(`* selecting #${mod.id}:[${mod.name}].mod`)
     this.activateMod(mod)
+
     env.curId = mod.id
+    env.lastSelect = env.time
 }
