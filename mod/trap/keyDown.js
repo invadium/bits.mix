@@ -5,14 +5,12 @@ function keyDown(e) {
         case 'Space':
         case 'Enter':
         case 'ArrowRight':
-        case 'ShiftRight':
             signal('next')
             break
 
 
         case 'Backspace':
         case 'ArrowLeft':
-        case 'ShiftLeft':
             signal('prev')
             break
     }
